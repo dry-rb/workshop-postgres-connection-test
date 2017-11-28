@@ -8,7 +8,7 @@ This will make it easier to get up and running with the app we build in the work
 
 1. Create a Postgres database called `dry_rb_workshop_connection_test`. You can usually do this by running `createdb dry_rb_workshop_connection_test` on the command line.
 2. Bundle this project: `bundle`
-3. Run the connection check script: `bundle exec ruby connection_test.rb`
+3. Run the connection check script: `ruby connection_test.rb`
 
 If the script prints "Postgres connection confirmed", then your database connection is fine and you should have no problems connecting the workshop app to your database.
 
